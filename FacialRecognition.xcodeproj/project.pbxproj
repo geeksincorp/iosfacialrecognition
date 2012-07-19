@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD80C1A0147C50B700151507 /* FRBackend.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD80C19F147C50B700151507 /* FRBackend.mm */; };
+		CD89EC131472A50200A36284 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD89EC121472A50200A36284 /* UIKit.framework */; };
+		CD89EC151472A50200A36284 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD89EC141472A50200A36284 /* Foundation.framework */; };
+		CD89EC171472A50200A36284 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD89EC161472A50200A36284 /* CoreGraphics.framework */; };
+		CD89EC1D1472A50300A36284 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD89EC1B1472A50300A36284 /* InfoPlist.strings */; };
+		CD89EC1F1472A50300A36284 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD89EC1E1472A50300A36284 /* main.m */; };
+		CD89EC231472A50300A36284 /* FRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD89EC221472A50300A36284 /* FRAppDelegate.m */; };
+		CD89EC261472A50300A36284 /* FRFirstViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD89EC251472A50300A36284 /* FRFirstViewController.mm */; };
+		CD89EC281472A50300A36284 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = CD89EC271472A50300A36284 /* first.png */; };
+		CD89EC2A1472A50300A36284 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD89EC291472A50300A36284 /* first@2x.png */; };
+		CD89EC2D1472A50300A36284 /* FRSecondViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD89EC2C1472A50300A36284 /* FRSecondViewController.mm */; };
+		CD89EC2F1472A50300A36284 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = CD89EC2E1472A50300A36284 /* second.png */; };
+		CD89EC311472A50300A36284 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD89EC301472A50300A36284 /* second@2x.png */; };
+		CD89EC341472A50300A36284 /* FRFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD89EC321472A50300A36284 /* FRFirstViewController.xib */; };
+		CD89EC371472A50300A36284 /* FRSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD89EC351472A50300A36284 /* FRSecondViewController.xib */; };
+		CD8CEDC41472AB230020EDB4 /* OpenCV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8CEDC31472AB230020EDB4 /* OpenCV.framework */; };
+		CD8CEDC71472AB3B0020EDB4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8CEDC61472AB3B0020EDB4 /* AVFoundation.framework */; };
+		CD8CEDC91472AB4F0020EDB4 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8CEDC81472AB4F0020EDB4 /* ImageIO.framework */; };
+		CD8CEDCB1472AB5C0020EDB4 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8CEDCA1472AB5C0020EDB4 /* libz.dylib */; };
+		CD8CEDCD1472AB670020EDB4 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8CEDCC1472AB670020EDB4 /* CoreVideo.framework */; };
+		CD8CEDCF1472AB700020EDB4 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8CEDCE1472AB700020EDB4 /* CoreMedia.framework */; };
+		CD8CEDD11472EF6B0020EDB4 /* haarcascade_frontalface_alt_tree.xml in Resources */ = {isa = PBXBuildFile; fileRef = CD8CEDD01472EF6B0020EDB4 /* haarcascade_frontalface_alt_tree.xml */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD80C19E147C50B700151507 /* FRBackend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRBackend.h; path = FacialRecognition/FRBackend.h; sourceTree = "<group>"; };
+		CD80C19F147C50B700151507 /* FRBackend.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = FRBackend.mm; path = FacialRecognition/FRBackend.mm; sourceTree = "<group>"; };
+		CD89EC0E1472A50200A36284 /* FacialRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacialRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD89EC121472A50200A36284 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CD89EC141472A50200A36284 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD89EC161472A50200A36284 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CD89EC1A1472A50200A36284 /* FacialRecognition-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FacialRecognition-Info.plist"; sourceTree = "<group>"; };
+		CD89EC1C1472A50300A36284 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD89EC1E1472A50300A36284 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD89EC201472A50300A36284 /* FacialRecognition-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FacialRecognition-Prefix.pch"; sourceTree = "<group>"; };
+		CD89EC211472A50300A36284 /* FRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FRAppDelegate.h; sourceTree = "<group>"; };
+		CD89EC221472A50300A36284 /* FRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRAppDelegate.m; sourceTree = "<group>"; };
+		CD89EC241472A50300A36284 /* FRFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FRFirstViewController.h; sourceTree = "<group>"; };
+		CD89EC251472A50300A36284 /* FRFirstViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = FRFirstViewController.mm; sourceTree = "<group>"; };
+		CD89EC271472A50300A36284 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		CD89EC291472A50300A36284 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		CD89EC2B1472A50300A36284 /* FRSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FRSecondViewController.h; sourceTree = "<group>"; };
+		CD89EC2C1472A50300A36284 /* FRSecondViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = FRSecondViewController.mm; sourceTree = "<group>"; };
+		CD89EC2E1472A50300A36284 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		CD89EC301472A50300A36284 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		CD89EC331472A50300A36284 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FRFirstViewController.xib; sourceTree = "<group>"; };
+		CD89EC361472A50300A36284 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FRSecondViewController.xib; sourceTree = "<group>"; };
+		CD8CEDC31472AB230020EDB4 /* OpenCV.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenCV.framework; sourceTree = "<group>"; };
+		CD8CEDC61472AB3B0020EDB4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CD8CEDC81472AB4F0020EDB4 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		CD8CEDCA1472AB5C0020EDB4 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		CD8CEDCC1472AB670020EDB4 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		CD8CEDCE1472AB700020EDB4 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		CD8CEDD01472EF6B0020EDB4 /* haarcascade_frontalface_alt_tree.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt_tree.xml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD89EC0B1472A50200A36284 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8CEDCF1472AB700020EDB4 /* CoreMedia.framework in Frameworks */,
+				CD8CEDCD1472AB670020EDB4 /* CoreVideo.framework in Frameworks */,
+				CD8CEDCB1472AB5C0020EDB4 /* libz.dylib in Frameworks */,
+				CD8CEDC91472AB4F0020EDB4 /* ImageIO.framework in Frameworks */,
+				CD8CEDC71472AB3B0020EDB4 /* AVFoundation.framework in Frameworks */,
+				CD89EC131472A50200A36284 /* UIKit.framework in Frameworks */,
+				CD89EC151472A50200A36284 /* Foundation.framework in Frameworks */,
+				CD89EC171472A50200A36284 /* CoreGraphics.framework in Frameworks */,
+				CD8CEDC41472AB230020EDB4 /* OpenCV.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD89EC031472A50000A36284 = {
+			isa = PBXGroup;
+			children = (
+				CD80C19E147C50B700151507 /* FRBackend.h */,
+				CD80C19F147C50B700151507 /* FRBackend.mm */,
+				CD89EC181472A50200A36284 /* FacialRecognition */,
+				CD89EC111472A50200A36284 /* Frameworks */,
+				CD89EC0F1472A50200A36284 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD89EC0F1472A50200A36284 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD89EC0E1472A50200A36284 /* FacialRecognition.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD89EC111472A50200A36284 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD8CEDCE1472AB700020EDB4 /* CoreMedia.framework */,
+				CD8CEDCC1472AB670020EDB4 /* CoreVideo.framework */,
+				CD8CEDCA1472AB5C0020EDB4 /* libz.dylib */,
+				CD8CEDC81472AB4F0020EDB4 /* ImageIO.framework */,
+				CD8CEDC61472AB3B0020EDB4 /* AVFoundation.framework */,
+				CD8CEDC31472AB230020EDB4 /* OpenCV.framework */,
+				CD89EC121472A50200A36284 /* UIKit.framework */,
+				CD89EC141472A50200A36284 /* Foundation.framework */,
+				CD89EC161472A50200A36284 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD89EC181472A50200A36284 /* FacialRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				CD8CEDD01472EF6B0020EDB4 /* haarcascade_frontalface_alt_tree.xml */,
+				CD89EC211472A50300A36284 /* FRAppDelegate.h */,
+				CD89EC221472A50300A36284 /* FRAppDelegate.m */,
+				CD89EC241472A50300A36284 /* FRFirstViewController.h */,
+				CD89EC251472A50300A36284 /* FRFirstViewController.mm */,
+				CD89EC271472A50300A36284 /* first.png */,
+				CD89EC291472A50300A36284 /* first@2x.png */,
+				CD89EC2B1472A50300A36284 /* FRSecondViewController.h */,
+				CD89EC2C1472A50300A36284 /* FRSecondViewController.mm */,
+				CD89EC2E1472A50300A36284 /* second.png */,
+				CD89EC301472A50300A36284 /* second@2x.png */,
+				CD89EC321472A50300A36284 /* FRFirstViewController.xib */,
+				CD89EC351472A50300A36284 /* FRSecondViewController.xib */,
+				CD89EC191472A50200A36284 /* Supporting Files */,
+			);
+			path = FacialRecognition;
+			sourceTree = "<group>";
+		};
+		CD89EC191472A50200A36284 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD89EC1A1472A50200A36284 /* FacialRecognition-Info.plist */,
+				CD89EC1B1472A50300A36284 /* InfoPlist.strings */,
+				CD89EC1E1472A50300A36284 /* main.m */,
+				CD89EC201472A50300A36284 /* FacialRecognition-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD89EC0D1472A50200A36284 /* FacialRecognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD89EC3A1472A50300A36284 /* Build configuration list for PBXNativeTarget "FacialRecognition" */;
+			buildPhases = (
+				CD89EC0A1472A50200A36284 /* Sources */,
+				CD89EC0B1472A50200A36284 /* Frameworks */,
+				CD89EC0C1472A50200A36284 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FacialRecognition;
+			productName = FacialRecognition;
+			productReference = CD89EC0E1472A50200A36284 /* FacialRecognition.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD89EC051472A50000A36284 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Geeks Incorporated";
+			};
+			buildConfigurationList = CD89EC081472A50000A36284 /* Build configuration list for PBXProject "FacialRecognition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD89EC031472A50000A36284;
+			productRefGroup = CD89EC0F1472A50200A36284 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD89EC0D1472A50200A36284 /* FacialRecognition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD89EC0C1472A50200A36284 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD89EC1D1472A50300A36284 /* InfoPlist.strings in Resources */,
+				CD89EC281472A50300A36284 /* first.png in Resources */,
+				CD89EC2A1472A50300A36284 /* first@2x.png in Resources */,
+				CD89EC2F1472A50300A36284 /* second.png in Resources */,
+				CD89EC311472A50300A36284 /* second@2x.png in Resources */,
+				CD89EC341472A50300A36284 /* FRFirstViewController.xib in Resources */,
+				CD89EC371472A50300A36284 /* FRSecondViewController.xib in Resources */,
+				CD8CEDD11472EF6B0020EDB4 /* haarcascade_frontalface_alt_tree.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD89EC0A1472A50200A36284 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD89EC1F1472A50300A36284 /* main.m in Sources */,
+				CD89EC231472A50300A36284 /* FRAppDelegate.m in Sources */,
+				CD89EC261472A50300A36284 /* FRFirstViewController.mm in Sources */,
+				CD89EC2D1472A50300A36284 /* FRSecondViewController.mm in Sources */,
+				CD80C1A0147C50B700151507 /* FRBackend.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD89EC1B1472A50300A36284 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD89EC1C1472A50300A36284 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD89EC321472A50300A36284 /* FRFirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD89EC331472A50300A36284 /* en */,
+			);
+			name = FRFirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		CD89EC351472A50300A36284 /* FRSecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD89EC361472A50300A36284 /* en */,
+			);
+			name = FRSecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD89EC381472A50300A36284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD89EC391472A50300A36284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD89EC3B1472A50300A36284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FacialRecognition/FacialRecognition-Prefix.pch";
+				INFOPLIST_FILE = "FacialRecognition/FacialRecognition-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD89EC3C1472A50300A36284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FacialRecognition/FacialRecognition-Prefix.pch";
+				INFOPLIST_FILE = "FacialRecognition/FacialRecognition-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD89EC081472A50000A36284 /* Build configuration list for PBXProject "FacialRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD89EC381472A50300A36284 /* Debug */,
+				CD89EC391472A50300A36284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD89EC3A1472A50300A36284 /* Build configuration list for PBXNativeTarget "FacialRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD89EC3B1472A50300A36284 /* Debug */,
+				CD89EC3C1472A50300A36284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD89EC051472A50000A36284 /* Project object */;
+}
