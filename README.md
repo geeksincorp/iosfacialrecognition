@@ -1,4 +1,6 @@
 iosfacialrecognition
 ====================
 
-Find an recognize faces with your iPhone / iOS device
+Find an recognize faces with your iPhone / iOS device.
+
+-----------
